@@ -1,4 +1,4 @@
-class MyClass
+class ArrayReader
 
   attr_accessor :arr, :arr2, :hae, :file_entered, :file_output, :file
 
@@ -158,7 +158,7 @@ class MyClass
   end
 end
 
-a = MyClass.new
+a = ArrayReader.new
 a.open_f
 a.write_f
 a.clean_newlines
